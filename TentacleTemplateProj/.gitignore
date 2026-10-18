@@ -72,3 +72,10 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Tentacle plugin binaries the project needs (committed on purpose)
+!Plugins/Tentacle/Binaries/ThirdParty/
+!Plugins/Tentacle/Binaries/ThirdParty/**/*.dll
+!Plugins/Tentacle/Binaries/ThirdParty/**/*.dylib
+!Plugins/Tentacle/ThirdParty/Library/Spout/*.lib
+!Plugins/Tentacle/ThirdParty/Bin/Spout/*.dll
