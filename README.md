@@ -2,7 +2,10 @@
 
 # Tentacle Embedded Template Project
 
+Template made for [Backseating Allowed Jam 2026](https://itch.io/jam/backseating-allowed-jam-2026)
+
 An Unreal Engine 5.8 starter project with the Tentacle plugin (v1.2) already installed and set up. It gives you a working base for a game that reacts to Twitch and Kick: chat, follows, subs, raids, channel point redemptions, viewer properties and more.
+The project includes sing-in to chat buttons, and chat log. Other functions are added by using the Tentacle events, as noted below.
 
 The project is built on Unreal's First Person template and includes the Unreal intro/demo content.
 
@@ -66,8 +69,8 @@ TentacleTemplateProj/
 
 The Tentacle actor has two settings: **Editor Mode** (used when you Play In Editor) and **Build Mode** (used in packaged and standalone builds). Each can be set to:
 
-- **Paired** (default): the game connects to the Tentacle app running on the same computer. The streamer signs in through the app.
-- **Embedded**: Tentacle runs inside the game, and the player signs in to Twitch or Kick in-game. No app needed. This is the one to use for games you ship to players.
+- **Paired**: the game connects to the Tentacle app running on the same computer. The streamer signs in through the app.
+- **Embedded** (default): Tentacle runs inside the game, and the player signs in to Twitch or Kick in-game. No app needed. This is the one to use for games you ship to players.
 
 You can override the mode from the command line, which is useful for testing a packaged build:
 
